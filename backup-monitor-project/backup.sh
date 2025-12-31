@@ -1,7 +1,7 @@
 #!/bin/bash
 SOURCE_DIR="/home/sneha/Documents"
 BACKUP_DIR="/home/sneha/backup"
-LOG_FILE="/home/sneha/logs/backup.log"
+LOG_FILE="/home/sneha/backup-monitor-project/logs/backup.log"
 DATE=$(date +"%Y-%m-%d")
 mkdir -p "$BACKUP_DIR"
 mkdir -p "/home/sneha/logs"
